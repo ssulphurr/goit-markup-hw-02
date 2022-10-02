@@ -42,6 +42,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.link-contacts{
+  color: #757575;
+}
+
 footer address {
   font-style: normal;
 }
@@ -59,6 +63,10 @@ footer .link {
 .link:focus,
 .link-transp:hover,
 .link-transp:focus {
+  color: var(--color-blue);
+}
+
+.link-opened-page{
   color: var(--color-blue);
 }
 
@@ -138,7 +146,6 @@ border: none;
 }
 
 .team p {
-  font-size: 16px;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
@@ -156,7 +163,6 @@ border: none;
 }
 
 .portfolio-options p {
-  font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
 
